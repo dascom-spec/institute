@@ -1,0 +1,50 @@
+
+.wrapperCourse{
+    padding-top:100px;
+    padding-bottom:100px;
+    width:70%;
+    margin:auto;
+}
+
+.containerCourse{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px
+}
+
+.imageCourse{
+    width:100%
+}
+
+.wrapperCourse h2{
+    margin-bottom:30px;
+    color:brown
+}
+
+.iconCourse i{
+    color:orange
+}
+
+.buttonCourse{
+    border:none;
+    background:#999;
+    color:#fff;
+    padding:10px;
+    cursor:pointer;
+    text-decoration:none;
+    position: relative;
+    top:10px;
+}
+
+
+.buttonCourse:hover{
+    background:#f98;
+}
+
+
+@media(max-width:800px){
+    .containerCourse{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+}
